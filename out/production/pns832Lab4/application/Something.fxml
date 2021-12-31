@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ClassifiedsController">
+   <children>
+      <ImageView fitHeight="108.0" fitWidth="123.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="homeButton" layoutX="534.0" layoutY="30.0" mnemonicParsing="false" onAction="#handleHome" text="Home" />
+      <ImageView fitHeight="100.0" fitWidth="150.0" layoutX="76.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="100.0" fitWidth="150.0" layoutX="76.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="100.0" fitWidth="150.0" layoutX="375.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="100.0" fitWidth="150.0" layoutX="375.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true" />
+      <Label alignment="CENTER" layoutX="234.0" layoutY="55.0" prefHeight="26.0" prefWidth="132.0" text="Classifieds" />
+      <Label alignment="CENTER" layoutX="90.0" layoutY="95.0" prefHeight="26.0" prefWidth="419.0" text="Help Wanted" textAlignment="CENTER" />
+      <Label fx:id="topLeftJob" alignment="CENTER" layoutX="85.0" layoutY="150.0" prefHeight="26.0" prefWidth="132.0" />
+      <Label fx:id="topLeftDetails" alignment="CENTER" layoutX="85.0" layoutY="176.0" prefHeight="43.0" prefWidth="132.0" />
+      <Label fx:id="topLeftPoster" alignment="CENTER" layoutX="85.0" layoutY="223.0" prefHeight="26.0" prefWidth="132.0">
+         <font>
+            <Font size="10.0" />
+         </font></Label>
+      <Label fx:id="bottomLeftJob" alignment="CENTER" layoutX="85.0" layoutY="250.0" prefHeight="26.0" prefWidth="132.0" />
+      <Label fx:id="bottomLeftDetails" alignment="CENTER" layoutX="85.0" layoutY="276.0" prefHeight="43.0" prefWidth="132.0" />
+      <Label fx:id="bottomLeftPoster" alignment="CENTER" layoutX="85.0" layoutY="320.0" prefHeight="26.0" prefWidth="132.0">
+         <font>
+            <Font size="10.0" />
+         </font></Label>
+      <Label fx:id="topRightJob" alignment="CENTER" layoutX="384.0" layoutY="150.0" prefHeight="26.0" prefWidth="132.0" />
+      <Label fx:id="topRightDetails" alignment="CENTER" layoutX="384.0" layoutY="176.0" prefHeight="43.0" prefWidth="132.0" />
+      <Label fx:id="topRightPoster" alignment="CENTER" layoutX="384.0" layoutY="223.0" prefHeight="26.0" prefWidth="132.0">
+         <font>
+            <Font size="10.0" />
+         </font></Label>
+      <Label fx:id="bottomRightJob" alignment="CENTER" layoutX="384.0" layoutY="250.0" prefHeight="26.0" prefWidth="132.0" />
+      <Label fx:id="bottomRightDetails" alignment="CENTER" layoutX="384.0" layoutY="276.0" prefHeight="43.0" prefWidth="132.0" />
+      <Label fx:id="bottomRightPoster" alignment="CENTER" layoutX="384.0" layoutY="320.0" prefHeight="26.0" prefWidth="132.0">
+         <font>
+            <Font size="10.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
